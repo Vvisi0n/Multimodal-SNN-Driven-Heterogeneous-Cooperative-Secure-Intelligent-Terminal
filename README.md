@@ -272,19 +272,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📚 参考资料 | References
 
-- [ESP32-S3 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_cn.pdf)
-- [LVGL Graphics Library Documentation](https://docs.lvgl.io/)
-- [SpikingJelly SNN Framework](https://github.com/fangwei123456/spikingjelly)
-- [EMQX MQTT Broker](https://www.emqx.io/)
+- [ESP32-S3 技术参考手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3_technical_reference_manual_cn.pdf)
+- [LVGL 图形库文档](https://docs.lvgl.io/)
+- [SpikingJelly SNN 框架](https://github.com/fangwei123456/spikingjelly)
+- [SpikeFSL: Spike-Driven Few-Shot Learning for Cross-Domain Hyperspectral Image Classification](https://ieeexplore.ieee.org/document/11558490) 
+- [基于SNN类脑芯片的神经网络模型部署](https://www.bilibili.com/video/BV1wh411D7Qi/) 
+- [基于ESP-IDF的ESP32-S3蓝牙透传实现](https://blog.csdn.net/Volvo_2/article/details/158364658)
 
 ---
 
-## 📧 联系方式 | Contact
-
-- 提交 Issue | Submit Issue: [GitHub Issues](https://github.com/yourusername/yourrepo/issues)
-- 邮箱 Email: your-email@example.com
-
----
 
 **⭐ 如果这个项目对您有帮助，请给一个 Star 支持我们！**
 **⭐ If this project helps you, please give us a Star!**
