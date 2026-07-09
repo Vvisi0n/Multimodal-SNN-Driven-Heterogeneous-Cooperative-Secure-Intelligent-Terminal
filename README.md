@@ -197,6 +197,8 @@ python -m http.server 8080
 
 ## 🔬 性能指标 | Performance Metrics
 
+<div align="center">
+
 | 指标项 Metric | 本终端 Our Terminal | 常规工控设备 Conventional IPC |
 |---------------|---------------------|-------------------------------|
 | 整机功耗 Power Consumption | 3.8W ~ 4.3W | 15.2W ~ 47.2W |
@@ -207,6 +209,8 @@ python -m http.server 8080
 | 数据上传丢包率 Packet Loss Rate | 0.1% ~ 0.3% | 0.5% ~ 2% |
 | 堆区内存占用 Heap Usage | 198KB ~ 236KB | 512KB ~ 2MB |
 | 工作温度范围 Operating Temperature | -25℃ ~ 70℃ | 0℃ ~ 50℃ |
+
+</div>
 
 ---
 
@@ -234,7 +238,6 @@ python -m http.server 8080
 ---
 
 ## 📷 实物展示 | Physical Showcase
-<div align="center"><img src="https://cdn.codenews.cc/blog/0c3f7d0b076300c421667a8e2f3aa61d.png" style="height:500px;width:auto;object-fit:contain;"></div>
 
 | 终端整体 Device Overall | 触控看板 LVGL Dashboard |
 |-------------------------|-------------------------|
