@@ -12,6 +12,7 @@
 **中文：** 本项目实现了一款基于**多模态脉冲神经网络（SNN）** 的异构协同安全智控边缘AI终端，面向工业物联网场景，采用三片 **ESP32-S3** 处理器异构级联架构，将数据采集、边缘推理、视觉安全与人机交互集成于一体，突破传统工控系统算力不足、实时性差、能耗偏高的局限。终端整机功耗 **< 5W**，时序故障诊断准确率 **96.5%~98.2%**，危险中断响应时间 **< 100ms**，为工业物联网低功耗、高安全、智能化运维提供可靠技术方案。
 
 **English:** This project implements an edge AI terminal based on **multi-modal Spiking Neural Network (SNN)** for heterogeneous collaborative safety-intelligent control. Targeting industrial IoT scenarios, it adopts a heterogeneous cascaded architecture of three **ESP32-S3** processors, integrating data acquisition, edge inference, vision-based safety, and human-machine interaction into a unified system, breaking through the limitations of traditional industrial control systems in computing power, real-time performance, and energy consumption. The terminal achieves **< 5W** power consumption, **96.5%~98.2%** temporal fault diagnosis accuracy, and **< 100ms** safety interrupt response time, providing a reliable technical solution for low-power, high-safety, and intelligent IIoT operations.
+<img src="https://cdn.codenews.cc/blog/66e224dd650b705684c11436585d84dd.jpg" width="500">
 
 ---
 
@@ -263,11 +264,11 @@ python -m http.server 8080
 
 | 终端整体 Device Overall | 触控看板 LVGL Dashboard |
 |-------------------------|-------------------------|
-| ![设备整体](docs/images/device_overall.jpg) | ![LVGL界面](docs/images/lvgl_ui.jpg) |
+| <div align="center"><img src="https://cdn.codenews.cc/blog/942508a060dd3c97bad6a9527b1d8cf1.jpg" style="height:500px;width:auto;object-fit:contain;"></div> | <div align="center"><img src="https://cdn.codenews.cc/blog/4947eefecae75746721fd41c222080d2.jpg" style="height:500px;width:auto;object-fit:contain;"></div> |
 
 | Web大屏 Web Dashboard | 视觉检测 Vision Detection |
 |-----------------------|---------------------------|
-| ![Web看板](docs/images/web_dashboard.jpg) | ![视觉检测](docs/images/vision_detection.jpg) |
+| <div align="center"><img src="https://cdn.codenews.cc/blog/351bec71663fb6feac30c98e55891b7d.png" style="height:500px;width:auto;object-fit:contain;"></div> | <div align="center"><img src="https://cdn.codenews.cc/blog/a11115dc318f5cf1ee9b81a1c05a515d.png" style="height:500px;width:auto;object-fit:contain;"></div> |
 
 ---
 
