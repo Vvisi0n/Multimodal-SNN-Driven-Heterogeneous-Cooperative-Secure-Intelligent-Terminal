@@ -29,6 +29,7 @@
 **中文：** 集成OV5640图像采集，本地部署轻量化视觉SNN模型，实时检测手部及上肢区域。一旦突入虚拟安全红线，立即触发硬件中断锁止设备，人员撤离后自动恢复。
 
 **English:** Integrated OV5640 image acquisition with locally deployed lightweight vision SNN model for real-time detection of hands and upper limbs. Once the virtual safety redline is breached, hardware interrupt is immediately triggered to lock the equipment, with automatic recovery after personnel evacuation.
+<div align="center"><img src="https://cdn.codenews.cc/blog/68024976cc735d0989a82d049256dcdc.png" style="height:500px;width:auto;object-fit:contain;"></div>
 
 ---
 
@@ -43,6 +44,7 @@
 **中文：** 基于LVGL搭建工业级触控看板，支持现场操控与数据本地持久化。通过MQTT上传云端完成SQL归档与Web可视化，内嵌千问大模型接口提供智能运维问答。
 
 **English:** Industrial-grade LVGL-based touch dashboard supporting on-site control and local data persistence. MQTT-based cloud upload for SQL archiving and Web visualization, with embedded Qwen LLM interface for intelligent O&M Q&A.
+<div align="center"><img src="https://cdn.codenews.cc/blog/832c65956cfb63a26555929825a0db1f.png" style="height:500px;width:auto;object-fit:contain;"></div>
 
 ---
 
@@ -50,6 +52,7 @@
 **中文：** 三片ESP32-S3串口级联，将视觉SNN、时序SNN与控制任务解耦至独立核心，保障并行推理高吞吐，整机功耗<5W，适配严苛工业场景。
 
 **English:** Three ESP32-S3 processors cascaded via UART, decoupling vision SNN, temporal SNN, and control tasks onto independent cores, ensuring high-throughput parallel inference with <5W total power consumption, suitable for harsh industrial environments.
+<div align="center"><img src="https://cdn.codenews.cc/blog/7be0428c5bc0fe20ea7cb9e2fc7bfd61.png" style="height:500px;width:auto;object-fit:contain;"></div>
 
 ---
 
@@ -261,6 +264,7 @@ python -m http.server 8080
 ---
 
 ## 📷 实物展示 | Physical Showcase
+<div align="center"><img src="https://cdn.codenews.cc/blog/0c3f7d0b076300c421667a8e2f3aa61d.png" style="height:500px;width:auto;object-fit:contain;"></div>
 
 | 终端整体 Device Overall | 触控看板 LVGL Dashboard |
 |-------------------------|-------------------------|
