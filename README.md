@@ -1,5 +1,5 @@
 # 基于多模态脉冲神经网络的异构协同安全智控终端
-# Heterogeneous Collaborative Safety-Intelligent Control Terminal Based on Multi-Modal Spiking Neural Network
+# Multimodal SNN-Driven Heterogeneous Cooperative Secure Intelligent Terminal
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-ESP32--S3-green.svg)](https://www.espressif.com/en/products/socs/esp32-s3)
