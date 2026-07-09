@@ -57,7 +57,7 @@
 
 ## 🏗️ 系统架构 | System Architecture
 
-<div align="center"><img src="https://cdn.codenews.cc/blog/7be0428c5bc0fe20ea7cb9e2fc7bfd61.png" style="height:900px;width:auto;object-fit:contain;"></div>
+<div align="center"><img src="https://cdn.codenews.cc/blog/7be0428c5bc0fe20ea7cb9e2fc7bfd61.png" style="height:700px;width:auto;object-fit:contain;"></div>
 
 
 ---
