@@ -52,43 +52,13 @@
 **中文：** 三片ESP32-S3串口级联，将视觉SNN、时序SNN与控制任务解耦至独立核心，保障并行推理高吞吐，整机功耗<5W，适配严苛工业场景。
 
 **English:** Three ESP32-S3 processors cascaded via UART, decoupling vision SNN, temporal SNN, and control tasks onto independent cores, ensuring high-throughput parallel inference with <5W total power consumption, suitable for harsh industrial environments.
-<div align="center"><img src="https://cdn.codenews.cc/blog/7be0428c5bc0fe20ea7cb9e2fc7bfd61.png" style="height:500px;width:auto;object-fit:contain;"></div>
 
 ---
 
 ## 🏗️ 系统架构 | System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        终端硬件架构                            │
-│                    Terminal Hardware Architecture              │
-├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐      │
-│  │  处理器 A   │◄──►│  处理器 B   │    │  处理器 C   │      │
-│  │ Processor A │ UART│ Processor B │    │ Processor C │      │
-│  │  (中央调度) │    │  (视觉感知) │    │ (人机交互)  │      │
-│  │ (Central)   │    │ (Vision)    │    │ (HMI)       │      │
-│  ├─────────────┤    ├─────────────┤    ├─────────────┤      │
-│  │ ·DHT11      │    │ ·OV5640     │    │ ·4.3寸触控屏│      │
-│  │ ·3-Phase    │    │ ·Vision SNN │    │ ·LVGL HMI   │      │
-│  │ ·MPU6050    │    │ ·UDP Stream │    │ ·MQTT Cloud │      │
-│  │ ·ECM Mic    │    │             │    │ ·LLM API    │      │
-│  │ ·Temporal   │    │             │    │ ·Motor Ctrl │      │
-│  │ ·Logic Judge│    │             │    │             │      │
-│  └─────────────┘    └─────────────┘    └─────────────┘      │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              ▼ MQTT
-                    ┌─────────────────────┐
-                    │       云端平台       │
-                    │    Cloud Platform   │
-                    ├─────────────────────┤
-                    │ ·EMQX Broker        │
-                    │ ·MySQL Database     │
-                    │ ·Web Dashboard      │
-                    │ ·Qwen LLM API       │
-                    └─────────────────────┘
-```
+<div align="center"><img src="https://cdn.codenews.cc/blog/7be0428c5bc0fe20ea7cb9e2fc7bfd61.png" style="height:900px;width:auto;object-fit:contain;"></div>
+
 
 ---
 
